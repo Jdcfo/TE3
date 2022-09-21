@@ -1,0 +1,13 @@
+{
+  "name": "Source Code",
+  "dataType": "string",
+  "sourceColumn": "Source Code",
+  "lineageTag": "520590e1-4df6-4a59-ac16-696a1b7778d4",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

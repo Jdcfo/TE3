@@ -1,0 +1,13 @@
+{
+  "name": "Gen Prod Posting Group",
+  "dataType": "string",
+  "sourceColumn": "Gen Prod Posting Group",
+  "lineageTag": "dbaef9ac-39d6-465e-a329-6f78149e7afc",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

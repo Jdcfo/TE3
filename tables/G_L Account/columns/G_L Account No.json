@@ -1,0 +1,13 @@
+{
+  "name": "G_L Account No",
+  "dataType": "string",
+  "sourceColumn": "G_L Account No",
+  "lineageTag": "c0ee57ec-ddfe-4b8c-83b0-7a50ce374619",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

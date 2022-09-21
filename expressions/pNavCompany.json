@@ -1,0 +1,17 @@
+{
+  "name": "pNavCompany",
+  "kind": "m",
+  "expression": "\"CRONUS Danmark A_S\" meta [IsParameterQuery=true, Type=\"Text\", IsParameterQueryRequired=true]",
+  "queryGroup": "Parameters",
+  "lineageTag": "4e7c1058-880d-4834-914f-ce8ba92faf6c",
+  "annotations": [
+    {
+      "name": "PBI_NavigationStepName",
+      "value": "Navigation"
+    },
+    {
+      "name": "PBI_ResultType",
+      "value": "Text"
+    }
+  ]
+}

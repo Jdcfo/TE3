@@ -1,0 +1,26 @@
+{
+  "name": "G_L Account-85335b61-5914-40db-af5d-535a0dbe73a6",
+  "mode": "import",
+  "source": {
+    "type": "m",
+    "expression": [
+      "let",
+      "    Source = Sql.Database(pServer, pDatabase),",
+      "    TableName = pNavCompany & \"$G_L Account\",",
+      "    #\"dbo_CRONUS Danmark A_S$G_L Account\" = Source{[Schema=\"dbo\",Item=TableName]}[Data],",
+      "    #\"Removed Other Columns\" = Table.SelectColumns(#\"dbo_CRONUS Danmark A_S$G_L Account\",{\"No_\", \"Name\", \"Account Type\", \"Global Dimension 1 Code\", \"Global Dimension 2 Code\", \"Account Category\", \"Income_Balance\", \"Debit_Credit\", \"Account Subcategory Entry No_\"}),",
+      "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Removed Other Columns\",{{\"Income_Balance\", type text}}),",
+      "    #\"Added Conditional Column\" = Table.AddColumn(#\"Changed Type\", \"Debit Credit\", each if [Debit_Credit] = 0 then \"Both\" else if [Debit_Credit] = 1 then \"Debit\" else if [Debit_Credit] = 2 then \"Credit\" else null),",
+      "    #\"Removed Columns\" = Table.RemoveColumns(#\"Added Conditional Column\",{\"Debit_Credit\"}),",
+      "    #\"Replaced Value\" = Table.ReplaceValue(#\"Removed Columns\",\"0\",\"Income Statement\",Replacer.ReplaceText,{\"Income_Balance\"}),",
+      "    #\"Replaced Value1\" = Table.ReplaceValue(#\"Replaced Value\",\"1\",\"Balance Sheet\",Replacer.ReplaceText,{\"Income_Balance\"}),",
+      "    #\"Renamed Columns\" = Table.RenameColumns(#\"Replaced Value1\",{{\"No_\", \"G_L Account No\"}, {\"Income_Balance\", \"Income Balance\"}, {\"Account Type\", \"Account Type No\"}, {\"Account Category\", \"Account Category No\"}, {\"Name\", \"Account Name\"}}),",
+      "    #\"Added Conditional Column1\" = Table.AddColumn(#\"Renamed Columns\", \"Account Type\", each if [Account Type No] = 0 then \"Posting\" else if [Account Type No] = 1 then \"Heading\" else if [Account Type No] = 2 then \"Total\" else if [Account Type No] = 3 then \"Begin-Total\" else if [Account Type No] = 4 then \"End-Total\" else null),",
+      "    #\"Added Conditional Column2\" = Table.AddColumn(#\"Added Conditional Column1\", \"Account Category\", each if [Account Category No] = 1 then \"Assets\" else if [Account Category No] = 2 then \"Liabilities\" else if [Account Category No] = 3 then \"Equity\" else if [Account Category No] = 4 then \"Income\" else if [Account Category No] = 5 then \"Cost of Goods Sold\" else if [Account Category No] = 6 then \"Expense\" else null),",
+      "    #\"Inserted Merged Column\" = Table.AddColumn(#\"Added Conditional Column2\", \"Account No Name\", each Text.Combine({[G_L Account No], [Account Name]}, \"-\"), type text),",
+      "    #\"Renamed Columns1\" = Table.RenameColumns(#\"Inserted Merged Column\",{{\"Account Subcategory Entry No_\", \"Account Subcategory Entry No\"}})",
+      "in",
+      "    #\"Renamed Columns1\""
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Posting Date",
+  "dataType": "dateTime",
+  "isHidden": true,
+  "sourceColumn": "Posting Date",
+  "formatString": "Long Date",
+  "lineageTag": "641ff844-d19d-43d0-9db0-ec38c65cf5ed",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "UnderlyingDateTimeDataType",
+      "value": "Date"
+    },
+    {
+      "name": "PBI_ChangedProperties",
+      "value": "[\"IsHidden\"]"
+    }
+  ]
+}

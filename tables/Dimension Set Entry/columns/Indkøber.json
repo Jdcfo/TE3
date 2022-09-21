@@ -1,0 +1,13 @@
+{
+  "name": "Indkøber",
+  "dataType": "string",
+  "sourceColumn": "Indkøber",
+  "lineageTag": "955a02fc-432a-4e2e-95e2-09b1db7384aa",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

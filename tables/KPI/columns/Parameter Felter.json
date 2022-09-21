@@ -1,0 +1,28 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "Parameter Felter",
+  "dataType": "string",
+  "isNameInferred": false,
+  "isDataTypeInferred": true,
+  "isHidden": true,
+  "sourceColumn": "[Value2]",
+  "sortByColumn": "Parameter Bestil",
+  "lineageTag": "309aed3b-8047-4d98-8c94-3aa8bc1c934b",
+  "summarizeBy": "none",
+  "extendedProperties": [
+    {
+      "type": "json",
+      "name": "ParameterMetadata",
+      "value": {
+        "version": 3,
+        "kind": 2
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

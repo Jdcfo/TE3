@@ -1,0 +1,13 @@
+{
+  "name": "Område",
+  "dataType": "string",
+  "sourceColumn": "Område",
+  "lineageTag": "ca387177-e7cc-4fe0-b670-09189ef87f30",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

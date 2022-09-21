@@ -1,0 +1,13 @@
+{
+  "name": "Forretningsgruppe",
+  "dataType": "string",
+  "sourceColumn": "Forretningsgruppe",
+  "lineageTag": "69c93d14-e864-4280-a1a2-6aa2b5f21391",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Budget",
+  "description": "SUM('Finance Budget'[Amount])",
+  "expression": "SUM('Finance Budget'[Amount])",
+  "formatString": "#,0.00",
+  "lineageTag": "793900f1-9bb9-4196-a846-eb4239beeb04",
+  "annotations": [
+    {
+      "name": "PBI_ChangedProperties",
+      "value": "[\"FormatString\"]"
+    }
+  ]
+}

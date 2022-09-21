@@ -1,0 +1,19 @@
+{
+  "name": "Dimension Set ID",
+  "dataType": "int64",
+  "isHidden": true,
+  "sourceColumn": "Dimension Set ID",
+  "formatString": "0",
+  "lineageTag": "9d902bd4-b08d-41f3-ae0e-e6cbd1131c28",
+  "summarizeBy": "count",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_ChangedProperties",
+      "value": "[\"IsHidden\"]"
+    }
+  ]
+}

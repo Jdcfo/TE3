@@ -1,0 +1,18 @@
+{
+  "name": "Measure table",
+  "lineageTag": "d5e15aa2-a933-4871-a7f7-fcb44a8e0685",
+  "annotations": [
+    {
+      "name": "PBI_NavigationStepName",
+      "value": "Navigation"
+    },
+    {
+      "name": "PBI_ResultType",
+      "value": "Table"
+    },
+    {
+      "name": "TabularEditor_Relationships",
+      "value": "[]"
+    }
+  ]
+}

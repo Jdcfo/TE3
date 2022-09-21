@@ -1,0 +1,21 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "Weekday",
+  "dataType": "string",
+  "isNameInferred": true,
+  "isDataTypeInferred": true,
+  "sourceColumn": "[Weekday]",
+  "sortByColumn": "WeekdayNo",
+  "lineageTag": "0452cbff-5ce6-4400-b5bf-42d918d532fc",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_ChangedProperties",
+      "value": "[\"SortByColumn\"]"
+    }
+  ]
+}

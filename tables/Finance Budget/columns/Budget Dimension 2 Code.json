@@ -1,0 +1,13 @@
+{
+  "name": "Budget Dimension 2 Code",
+  "dataType": "string",
+  "sourceColumn": "Budget Dimension 2 Code",
+  "lineageTag": "06c931db-37d5-4471-b681-65838510b649",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

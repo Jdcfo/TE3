@@ -1,0 +1,15 @@
+{
+  "name": "Date",
+  "lineageTag": "28d03637-864c-42d1-a3dd-6011a4bf18fc",
+  "dataCategory": "Time",
+  "annotations": [
+    {
+      "name": "PBI_Id",
+      "value": "8de59e015c53497da9be93e41f6b1d17"
+    },
+    {
+      "name": "TabularEditor_Relationships",
+      "value": "[]"
+    }
+  ]
+}

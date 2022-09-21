@@ -1,0 +1,19 @@
+{
+  "name": "Finance-53cc76a8-2411-4628-8bd8-52d9067b11ed",
+  "mode": "import",
+  "source": {
+    "type": "m",
+    "expression": [
+      "let",
+      "    Source = Sql.Database(pServer, pDatabase),",
+      "    TableName = pNavCompany & \"$G_L Entry\",    ",
+      "    #\"dbo_CRONUS Danmark A_S$G_L Entry\" = Source{[Schema=\"dbo\",Item=TableName]}[Data],",
+      "    #\"Removed Other Columns\" = Table.SelectColumns(#\"dbo_CRONUS Danmark A_S$G_L Entry\",{\"G_L Account No_\", \"Posting Date\", \"Document Type\", \"Document No_\", \"Description\", \"Amount\", \"Source Code\", \"Gen_ Posting Type\", \"Gen_ Bus_ Posting Group\", \"Gen_ Prod_ Posting Group\", \"Debit Amount\", \"Credit Amount\", \"VAT Bus_ Posting Group\", \"VAT Prod_ Posting Group\", \"Dimension Set ID\"}),",
+      "    #\"Renamed Columns\" = Table.RenameColumns(#\"Removed Other Columns\",{{\"G_L Account No_\", \"G_L Account No\"}, {\"Document No_\", \"Document No\"}, {\"Gen_ Posting Type\", \"Gen Posting Type\"}, {\"Gen_ Bus_ Posting Group\", \"Gen Bus Posting Group\"}, {\"Gen_ Prod_ Posting Group\", \"Gen Prod Posting Group\"}, {\"VAT Bus_ Posting Group\", \"VAT Bus Posting Group\"}, {\"VAT Prod_ Posting Group\", \"VAT Prod Posting Group\"}, {\"Description\", \"Document Description\"}}),",
+      "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Renamed Columns\",{{\"Posting Date\", type date}}),",
+      "    #\"Added Conditional Column\" = Table.AddColumn(#\"Changed Type\", \"Posting Type\", each if [Gen Posting Type] = 1 then \"Purchace\" else if [Gen Posting Type] = 2 then \"Sale\" else if [Gen Posting Type] = 3 then \"Settlement\" else \"Blank\")",
+      "in",
+      "    #\"Added Conditional Column\""
+    ]
+  }
+}

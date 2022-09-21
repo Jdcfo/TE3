@@ -1,0 +1,6 @@
+{
+  "name": "Amount YoY",
+  "expression": "[Amount] - [Amount PY]",
+  "displayFolder": "_Time Intelligence",
+  "lineageTag": "36715c62-0eb0-4c8e-bbec-ea1b0b7a63cd"
+}

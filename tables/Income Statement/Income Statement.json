@@ -1,0 +1,14 @@
+{
+  "name": "Income Statement",
+  "lineageTag": "687d3738-8ba0-449b-bb1c-4a5bd59bc736",
+  "annotations": [
+    {
+      "name": "PBI_Id",
+      "value": "b5e03fdc2e1748d593ca77b780863dbd"
+    },
+    {
+      "name": "TabularEditor_Relationships",
+      "value": "[]"
+    }
+  ]
+}

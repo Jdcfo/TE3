@@ -1,0 +1,7 @@
+{
+  "name": "NET PROFIT",
+  "expression": "[EBITDA]+[_Tax]",
+  "formatString": "#,##0",
+  "displayFolder": "_AccountSpecific",
+  "lineageTag": "ba4eafd3-4cc0-49a9-a9bf-229b02422381"
+}

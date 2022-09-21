@@ -1,0 +1,36 @@
+{
+  "name": "_Revenue",
+  "description": [
+    "CALCULATE(",
+    "\tSUM('Finance'[Amount]),",
+    "\t 'G_L Account'[Account Category]  IN { \"Income\" },",
+    "\tALL('G_L Account'[Account Category No])",
+    ")"
+  ],
+  "expression": [
+    "CALCULATE(",
+    "\tSUM('Finance'[Amount]),",
+    "\t'G_L Account'[Account Category] IN { \"Income\" },",
+    "\tALL('G_L Account'[Account Category No])",
+    ")"
+  ],
+  "formatString": "#,##0",
+  "displayFolder": "_AccountSpecific",
+  "lineageTag": "bf341a0f-c0d5-4e4e-9f15-85726e3138b0",
+  "extendedProperties": [
+    {
+      "type": "json",
+      "name": "MeasureTemplate",
+      "value": {
+        "version": 0,
+        "daxTemplateName": "FilteredMeasure"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_ChangedProperties",
+      "value": "[\"FormatString\"]"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "GROSS PROFIT",
+  "description": " [Revenue] - [COGS]",
+  "expression": "[_Revenue]+[_Cogs]",
+  "formatString": "#,##0",
+  "displayFolder": "_AccountSpecific",
+  "lineageTag": "cfdac8e4-cbe1-46fb-9808-4bf791ead15e"
+}

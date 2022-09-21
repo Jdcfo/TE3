@@ -1,0 +1,14 @@
+{
+  "name": "G_L Account No int",
+  "dataType": "int64",
+  "isHidden": true,
+  "sourceColumn": "G_L Account No",
+  "lineageTag": "9ab931f4-ed76-4a2b-a683-9ccbea89917c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

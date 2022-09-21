@@ -1,0 +1,13 @@
+{
+  "name": "Global Dimension 2 Code",
+  "dataType": "string",
+  "sourceColumn": "Global Dimension 2 Code",
+  "lineageTag": "015b43ec-5bff-4c93-92f8-1432e5c16356",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

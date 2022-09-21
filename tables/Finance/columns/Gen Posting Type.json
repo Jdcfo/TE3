@@ -1,0 +1,14 @@
+{
+  "name": "Gen Posting Type",
+  "dataType": "int64",
+  "sourceColumn": "Gen Posting Type",
+  "formatString": "0",
+  "lineageTag": "4e138da0-b151-42e0-948d-9ca6d57fc4a2",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "User"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Amount PY",
+  "expression": "CALCULATE([Amount], SAMEPERIODLASTYEAR('Date'[Date]))",
+  "displayFolder": "_Time Intelligence",
+  "lineageTag": "6926b8d2-fca9-4584-b264-5d4cccbaf46b"
+}

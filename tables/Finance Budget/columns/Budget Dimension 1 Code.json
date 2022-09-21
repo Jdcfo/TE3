@@ -1,0 +1,13 @@
+{
+  "name": "Budget Dimension 1 Code",
+  "dataType": "string",
+  "sourceColumn": "Budget Dimension 1 Code",
+  "lineageTag": "9b30acd7-c867-4714-bd3d-eb168f1adbcb",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

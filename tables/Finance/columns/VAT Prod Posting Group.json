@@ -1,0 +1,13 @@
+{
+  "name": "VAT Prod Posting Group",
+  "dataType": "string",
+  "sourceColumn": "VAT Prod Posting Group",
+  "lineageTag": "c117f835-d248-4485-b6e2-a73a86e965d1",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

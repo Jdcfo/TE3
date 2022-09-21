@@ -1,0 +1,6 @@
+{
+  "name": "Amount YTD",
+  "expression": "TOTALYTD([Amount], 'Date'[Date])",
+  "displayFolder": "_Time Intelligence",
+  "lineageTag": "10878d28-76a2-4c35-919e-438224f9753a"
+}

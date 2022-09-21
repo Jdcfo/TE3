@@ -1,0 +1,22 @@
+{
+  "type": "calculated",
+  "name": "Level 3",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "expression": [
+    "",
+    "VAR LevelNumber = 3",
+    "VAR LevelKey = PATHITEM ( 'G_L Account Category'[EntityPath], LevelNumber, INTEGER )",
+    "VAR LevelName = LOOKUPVALUE ( 'G_L Account Category'[Account Category Name], 'G_L Account Category'[Entry No], LevelKey)",
+    "RETURN",
+    "LevelName"
+  ],
+  "lineageTag": "1ae30768-ac5d-4580-8c7c-1e4346e9288a",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

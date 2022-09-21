@@ -1,0 +1,6 @@
+{
+  "name": "Budget Variances YTD",
+  "expression": "TOTALYTD([Budget Variances], 'Date'[Date])",
+  "displayFolder": "_Time Intelligence",
+  "lineageTag": "5fc2fb74-8aa4-432d-a314-8c24430f559a"
+}

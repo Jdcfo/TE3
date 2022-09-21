@@ -1,0 +1,19 @@
+{
+  "name": "Account Subcategory Entry No",
+  "dataType": "int64",
+  "isHidden": true,
+  "sourceColumn": "Account Subcategory Entry No",
+  "formatString": "0",
+  "lineageTag": "7666f6d3-f0b2-4cf4-90a1-bbb9fdc82f15",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_ChangedProperties",
+      "value": "[\"IsHidden\"]"
+    }
+  ]
+}

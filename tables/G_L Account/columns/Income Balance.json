@@ -1,0 +1,13 @@
+{
+  "name": "Income Balance",
+  "dataType": "string",
+  "sourceColumn": "Income Balance",
+  "lineageTag": "2c880ba7-c555-4020-819c-d2623d9b583b",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

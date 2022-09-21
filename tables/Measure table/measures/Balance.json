@@ -1,0 +1,23 @@
+{
+  "name": "Balance",
+  "description": [
+    "VAR Mdt = MAX('Date'[Date])",
+    "VAR BalanceToDay = CALCULATE(  [Amount]  , ALL('Date'), 'Date'[Date]  <= Mdt ,  'G_L Account'[Income Balance]  = \"Balance Sheet\")",
+    "RETURN",
+    "IF(MAX('G_L Account'[Income Balance]) = \"Balance Sheet\",BalanceToDay, [Amount])"
+  ],
+  "expression": [
+    "VAR Mdt = MAX('Date'[Date])",
+    "VAR BalanceToDay = CALCULATE( [Amount] , ALL('Date'),'Date'[Date] <= Mdt , 'G_L Account'[Income Balance] = \"Balance Sheet\")",
+    "RETURN",
+    "IF(MAX('G_L Account'[Income Balance]) = \"Balance Sheet\",BalanceToDay,[Amount])"
+  ],
+  "formatString": "#,0",
+  "lineageTag": "0af6baaf-bb82-4342-8ccb-d08310a25fae",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

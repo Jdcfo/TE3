@@ -1,0 +1,18 @@
+{
+  "name": "Date-b24d49c2-2453-4b27-88cc-135c86e7de0b",
+  "mode": "import",
+  "source": {
+    "type": "calculated",
+    "expression": [
+      "",
+      "ADDCOLUMNS(",
+      " CALENDARAUTO()",
+      ",\"Year\",YEAR([Date])",
+      ",\"MonthNo\",MONTH([Date])",
+      ",\"Month\",FORMAT([Date],\"mmm\")",
+      ",\"WeekdayNo\",WEEKDAY([Date])",
+      ",\"Weekday\",FORMAT([Date], \"dddd\")",
+      ")"
+    ]
+  }
+}

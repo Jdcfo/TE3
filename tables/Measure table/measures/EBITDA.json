@@ -1,0 +1,7 @@
+{
+  "name": "EBITDA",
+  "expression": "[GROSS PROFIT]+[_Opex]+[_Interest, Depreciation, and Amortization]",
+  "formatString": "#,##0",
+  "displayFolder": "_AccountSpecific",
+  "lineageTag": "ca7b8d77-d790-4c20-a4ee-9c390b01400f"
+}

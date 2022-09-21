@@ -1,0 +1,13 @@
+{
+  "name": "Salgskampagne",
+  "dataType": "string",
+  "sourceColumn": "Salgskampagne",
+  "lineageTag": "9cd55ee7-eaa5-4aa3-9f55-dedc6881d37c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

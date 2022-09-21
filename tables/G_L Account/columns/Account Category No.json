@@ -1,0 +1,19 @@
+{
+  "name": "Account Category No",
+  "dataType": "int64",
+  "isHidden": true,
+  "sourceColumn": "Account Category No",
+  "formatString": "0",
+  "lineageTag": "cb21f841-7d87-42bc-a947-650a7ee25dfd",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "User"
+    },
+    {
+      "name": "PBI_ChangedProperties",
+      "value": "[\"IsHidden\"]"
+    }
+  ]
+}

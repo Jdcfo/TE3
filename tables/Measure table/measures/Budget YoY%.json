@@ -1,0 +1,7 @@
+{
+  "name": "Budget YoY%",
+  "expression": "DIVIDE([Budget], [Budget YoY])",
+  "formatString": "0 %",
+  "displayFolder": "_Time Intelligence",
+  "lineageTag": "a2b8f63c-599d-42a1-8eeb-fb0c5d526edb"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Account Category",
+  "dataType": "string",
+  "sourceColumn": "Account Category",
+  "sortByColumn": "Account Category No",
+  "lineageTag": "03d3b713-b0c1-47a0-8a73-c7fc4b5fd273",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_ChangedProperties",
+      "value": "[\"SortByColumn\"]"
+    }
+  ]
+}

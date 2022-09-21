@@ -1,0 +1,13 @@
+{
+  "name": "Budget Name",
+  "dataType": "string",
+  "sourceColumn": "Budget Name",
+  "lineageTag": "31ec87af-69d8-4229-82d0-df0011e0235b",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

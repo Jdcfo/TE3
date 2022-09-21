@@ -1,0 +1,21 @@
+{
+  "name": "KPI-dfe2720d-d032-4eb0-9bfb-f0b8e9961a65",
+  "mode": "import",
+  "source": {
+    "type": "calculated",
+    "expression": [
+      "{",
+      "    (\"Revenue\", NAMEOF('Measure table'[_Revenue]), 0),",
+      "    (\"Cogs\", NAMEOF('Measure table'[_Cogs]), 1),",
+      "(\"GROSS PROFIT\", NAMEOF('Measure table'[GROSS PROFIT]), 2),",
+      "    (\"GROSS MARGIN\", NAMEOF('Measure table'[GM %]), 3),",
+      "    (\"Opex\", NAMEOF('Measure table'[_Opex]), 30),",
+      "    (\"EBITDA\", NAMEOF('Measure table'[EBITDA]), 40),",
+      "    (\"Interest, Depreciation, and Amortization\", NAMEOF('Measure table'[_Interest, Depreciation, and Amortization]), 50),",
+      "    (\"EBIT\", NAMEOF('Measure table'[EBIT]), 60),",
+      "    (\"Tax\", NAMEOF('Measure table'[_Tax]), 70),",
+      "    (\"NET PROFIT\", NAMEOF('Measure table'[NET PROFIT]), 80)",
+      "}"
+    ]
+  }
+}

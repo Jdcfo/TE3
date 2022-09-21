@@ -1,0 +1,13 @@
+{
+  "name": "VAT Bus Posting Group",
+  "dataType": "string",
+  "sourceColumn": "VAT Bus Posting Group",
+  "lineageTag": "b98f2430-b031-4f45-a5a2-548cac84a278",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

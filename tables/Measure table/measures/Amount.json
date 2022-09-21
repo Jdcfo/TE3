@@ -1,0 +1,13 @@
+{
+  "name": "Amount",
+  "description": "SUM(Finance[Amount])",
+  "expression": "SUM(Finance[Amount])",
+  "formatString": "#,0",
+  "lineageTag": "9bc8e0a3-7348-4a81-a89f-e00353ee3bea",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

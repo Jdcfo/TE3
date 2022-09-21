@@ -1,0 +1,17 @@
+{
+  "name": "pDatabase",
+  "kind": "m",
+  "expression": "\"NAV10\" meta [IsParameterQuery=true, Type=\"Text\", IsParameterQueryRequired=true]",
+  "queryGroup": "Parameters",
+  "lineageTag": "622b0882-2df6-4160-bdf3-395c33c252b7",
+  "annotations": [
+    {
+      "name": "PBI_NavigationStepName",
+      "value": "Navigation"
+    },
+    {
+      "name": "PBI_ResultType",
+      "value": "Text"
+    }
+  ]
+}

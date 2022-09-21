@@ -1,0 +1,13 @@
+{
+  "name": "Document No",
+  "dataType": "string",
+  "sourceColumn": "Document No",
+  "lineageTag": "120ea406-e668-48de-823c-4d52a7451ff7",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

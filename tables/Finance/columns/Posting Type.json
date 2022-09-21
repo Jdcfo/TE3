@@ -1,0 +1,17 @@
+{
+  "name": "Posting Type",
+  "dataType": "string",
+  "sourceColumn": "Posting Type",
+  "lineageTag": "bb7d8a47-8cc0-4c8b-84c7-80062e1486b5",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_ChangedProperties",
+      "value": "[\"IsHidden\"]"
+    }
+  ]
+}

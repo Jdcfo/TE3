@@ -1,0 +1,7 @@
+{
+  "name": "EBIT",
+  "expression": "[GROSS PROFIT]+[_Opex]",
+  "formatString": "#,##0",
+  "displayFolder": "_AccountSpecific",
+  "lineageTag": "c6fd70c0-3601-4c65-b0ea-2d30e860583e"
+}

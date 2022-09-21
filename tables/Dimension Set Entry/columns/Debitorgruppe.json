@@ -1,0 +1,13 @@
+{
+  "name": "Debitorgruppe",
+  "dataType": "string",
+  "sourceColumn": "Debitorgruppe",
+  "lineageTag": "771f1cab-c3df-48fa-8706-1e5a9d546a3c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

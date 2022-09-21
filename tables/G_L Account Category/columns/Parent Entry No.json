@@ -1,0 +1,19 @@
+{
+  "name": "Parent Entry No",
+  "dataType": "int64",
+  "isHidden": true,
+  "sourceColumn": "Parent Entry No",
+  "formatString": "0",
+  "lineageTag": "629fe0f3-6e81-4c6f-b197-c141f45c085f",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_ChangedProperties",
+      "value": "[\"IsHidden\"]"
+    }
+  ]
+}

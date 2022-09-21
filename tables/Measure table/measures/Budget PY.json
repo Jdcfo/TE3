@@ -1,0 +1,6 @@
+{
+  "name": "Budget PY",
+  "expression": "CALCULATE([Budget], SAMEPERIODLASTYEAR('Date'[Date]))",
+  "displayFolder": "_Time Intelligence",
+  "lineageTag": "e1ccdb33-cea8-4af9-9045-b0876086291a"
+}

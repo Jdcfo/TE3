@@ -1,0 +1,13 @@
+{
+  "name": "Sælger",
+  "dataType": "string",
+  "sourceColumn": "Sælger",
+  "lineageTag": "9604d7b5-1245-499a-8eb6-72076c2cea1a",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Amount YoY%",
+  "expression": "DIVIDE([Amount YoY],[Amount])",
+  "formatString": "0 %",
+  "displayFolder": "_Time Intelligence",
+  "lineageTag": "2ca00299-bb94-484f-8052-4f415ef371d5"
+}

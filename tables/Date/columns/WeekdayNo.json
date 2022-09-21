@@ -1,0 +1,22 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "WeekdayNo",
+  "dataType": "int64",
+  "isNameInferred": true,
+  "isDataTypeInferred": true,
+  "isHidden": true,
+  "sourceColumn": "[WeekdayNo]",
+  "formatString": "0",
+  "lineageTag": "326b78c2-ef2b-42ec-a262-fe0b6d7e0ad8",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "User"
+    },
+    {
+      "name": "PBI_ChangedProperties",
+      "value": "[\"IsHidden\"]"
+    }
+  ]
+}

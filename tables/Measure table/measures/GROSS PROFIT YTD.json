@@ -1,0 +1,7 @@
+{
+  "name": "GROSS PROFIT YTD",
+  "expression": "TOTALYTD([GROSS PROFIT], 'Date'[Date])",
+  "formatString": "#,##0",
+  "displayFolder": "_AccountSpecific",
+  "lineageTag": "45a6dfac-85b2-4803-ab37-c55162007fe7"
+}

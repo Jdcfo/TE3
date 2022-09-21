@@ -1,0 +1,18 @@
+{
+  "name": "Margin %",
+  "description": [
+    "Gross profit margin, also referred to as gross margin, is a measure of a company’s profitability. ",
+    "Gross profit margin indicates the amount of revenue remaining in a given accounting period after a company pays for labor and materials, ",
+    "otherwise known as cost of goods sold (COGS)."
+  ],
+  "expression": [
+    "VAR Rev = [_Revenue]",
+    "VAR CompareAmount = [Amount]",
+    "VAR Margin = Rev-CompareAmount",
+    "VAR MarginPct = Margin/CompareAmount",
+    "RETURN",
+    "    MarginPct"
+  ],
+  "formatString": "#,##0 %",
+  "lineageTag": "cb707423-29d0-4070-9d13-550f1d399419"
+}

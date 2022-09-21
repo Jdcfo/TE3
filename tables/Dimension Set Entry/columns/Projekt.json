@@ -1,0 +1,13 @@
+{
+  "name": "Projekt",
+  "dataType": "string",
+  "sourceColumn": "Projekt",
+  "lineageTag": "8a67d45b-3dee-4150-a307-5988a0632462",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

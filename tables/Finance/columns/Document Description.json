@@ -1,0 +1,13 @@
+{
+  "name": "Document Description",
+  "dataType": "string",
+  "sourceColumn": "Document Description",
+  "lineageTag": "cb50007b-c746-4350-8225-bc5461b8bb39",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

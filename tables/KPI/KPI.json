@@ -1,0 +1,14 @@
+{
+  "name": "KPI",
+  "lineageTag": "b82d2122-1583-46b1-aceb-8d3d5162c217",
+  "annotations": [
+    {
+      "name": "PBI_Id",
+      "value": "c245dc6b3b654466bdd64514d4efcfca"
+    },
+    {
+      "name": "TabularEditor_Relationships",
+      "value": "[]"
+    }
+  ]
+}

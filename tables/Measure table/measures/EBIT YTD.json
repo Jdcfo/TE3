@@ -1,0 +1,7 @@
+{
+  "name": "EBIT YTD",
+  "expression": "TOTALYTD([EBIT], 'Date'[Date])",
+  "formatString": "#,##0",
+  "displayFolder": "_AccountSpecific",
+  "lineageTag": "b532f10a-f144-441c-a33c-39564df4fe2a"
+}

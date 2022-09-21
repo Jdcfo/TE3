@@ -1,0 +1,21 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "Month",
+  "dataType": "string",
+  "isNameInferred": true,
+  "isDataTypeInferred": true,
+  "sourceColumn": "[Month]",
+  "sortByColumn": "MonthNo",
+  "lineageTag": "2863325a-9622-45fa-b1da-1ba5a5606a65",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_ChangedProperties",
+      "value": "[\"SortByColumn\"]"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "calculated",
+  "name": "EntityPath",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "isHidden": true,
+  "expression": [
+    "",
+    "PATH ( 'G_L Account Category'[Entry No],'G_L Account Category'[Parent Entry No])"
+  ],
+  "lineageTag": "4529a66d-dd2e-4543-9c1e-575d94175611",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_ChangedProperties",
+      "value": "[\"IsHidden\"]"
+    }
+  ]
+}

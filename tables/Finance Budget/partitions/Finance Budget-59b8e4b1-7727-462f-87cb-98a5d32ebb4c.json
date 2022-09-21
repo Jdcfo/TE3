@@ -1,0 +1,18 @@
+{
+  "name": "Finance Budget-59b8e4b1-7727-462f-87cb-98a5d32ebb4c",
+  "mode": "import",
+  "source": {
+    "type": "m",
+    "expression": [
+      "let",
+      "    Source = Sql.Database(pServer, pDatabase),",
+      "    TableName = pNavCompany & \"$G_L Budget Entry\",    ",
+      "    #\"dbo_CRONUS Danmark A_S$G_L Budget Entry\" = Source{[Schema=\"dbo\",Item=TableName]}[Data],",
+      "    #\"Removed Other Columns\" = Table.SelectColumns(#\"dbo_CRONUS Danmark A_S$G_L Budget Entry\",{\"Budget Name\", \"G_L Account No_\", \"Date\", \"Global Dimension 1 Code\", \"Global Dimension 2 Code\", \"Amount\", \"Description\", \"Budget Dimension 1 Code\", \"Budget Dimension 2 Code\", \"Dimension Set ID\"}),",
+      "    #\"Renamed Columns\" = Table.RenameColumns(#\"Removed Other Columns\",{{\"G_L Account No_\", \"G_L Account No\"}}),",
+      "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Renamed Columns\",{{\"Date\", type date}})",
+      "in",
+      "    #\"Changed Type\""
+    ]
+  }
+}

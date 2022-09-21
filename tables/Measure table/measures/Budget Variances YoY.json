@@ -1,0 +1,6 @@
+{
+  "name": "Budget Variances YoY",
+  "expression": "[Budget Variances] - [Budget Variances PY]",
+  "displayFolder": "_Time Intelligence",
+  "lineageTag": "4f7f4ead-7df0-4338-9891-14d504e6c0d7"
+}

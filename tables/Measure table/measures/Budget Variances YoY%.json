@@ -1,0 +1,7 @@
+{
+  "name": "Budget Variances YoY%",
+  "expression": "DIVIDE([Budget Variances YoY],[Budget Variances])",
+  "formatString": "0 %",
+  "displayFolder": "_Time Intelligence",
+  "lineageTag": "f9b445aa-f4f5-4525-86a6-040d54c1adf9"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Dimension",
+  "kind": "m",
+  "expression": [
+    "let",
+    "    Source = Sql.Database(pServer, pDatabase),",
+    "    TableName = pNavCompany & \"$Dimension\",       ",
+    "    #\"dbo_CRONUS Danmark A_S$Dimension\" = Source{[Schema=\"dbo\",Item=TableName]}[Data],",
+    "    #\"Removed Other Columns\" = Table.SelectColumns(#\"dbo_CRONUS Danmark A_S$Dimension\",{\"Code\", \"Name\", \"Code Caption\", \"Filter Caption\"})",
+    "in",
+    "    #\"Removed Other Columns\""
+  ],
+  "queryGroup": "Helpers",
+  "lineageTag": "d7a9000a-63f4-4512-8d83-074901ea9b3d",
+  "annotations": [
+    {
+      "name": "PBI_NavigationStepName",
+      "value": "Navigation"
+    },
+    {
+      "name": "PBI_ResultType",
+      "value": "Table"
+    }
+  ]
+}

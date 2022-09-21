@@ -1,0 +1,18 @@
+{
+  "name": "Amount",
+  "dataType": "double",
+  "sourceColumn": "Amount",
+  "formatString": "#,0.00",
+  "lineageTag": "d0096095-50f8-4a0b-bd6f-77eff39d9000",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_ChangedProperties",
+      "value": "[\"FormatString\"]"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Income Statement-a6d1cd12-f6a9-41a7-9361-1cc338eba577",
+  "mode": "import",
+  "source": {
+    "type": "calculated",
+    "expression": [
+      "{",
+      "    (\"_Revenue\", NAMEOF('Measure table'[_Revenue]), 0),",
+      "    (\"_Cogs\", NAMEOF('Measure table'[_Cogs]), 1),",
+      "    (\"GROSS PROFIT\", NAMEOF('Measure table'[GROSS PROFIT]), 2),",
+      "    (\"GROSS MARGIN\", NAMEOF('Measure table'[GM %]), 2),",
+      "    (\"_Opex\", NAMEOF('Measure table'[_Opex]), 3),",
+      "    (\"EBIT\", NAMEOF('Measure table'[EBIT]), 4),",
+      "    (\"_Interest, Depreciation, and Amortization\", NAMEOF('Measure table'[_Interest, Depreciation, and Amortization]), 5),",
+      "    (\"EBITDA\", NAMEOF('Measure table'[EBITDA]), 6),",
+      "    (\"_Tax\", NAMEOF('Measure table'[_Tax]), 7),",
+      "    (\"NET PROFIT\", NAMEOF('Measure table'[NET PROFIT]), 8)",
+      "}"
+    ]
+  }
+}

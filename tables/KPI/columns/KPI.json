@@ -1,0 +1,24 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "KPI",
+  "dataType": "string",
+  "isNameInferred": false,
+  "isDataTypeInferred": true,
+  "sourceColumn": "[Value1]",
+  "sortByColumn": "Parameter Bestil",
+  "lineageTag": "375464fb-2b97-4eed-a683-d42d4bd9b657",
+  "summarizeBy": "none",
+  "relatedColumnDetails": {
+    "groupByColumns": [
+      {
+        "groupingColumn": "Parameter Felter"
+      }
+    ]
+  },
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

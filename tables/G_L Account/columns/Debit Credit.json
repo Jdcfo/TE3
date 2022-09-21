@@ -1,0 +1,13 @@
+{
+  "name": "Debit Credit",
+  "dataType": "string",
+  "sourceColumn": "Debit Credit",
+  "lineageTag": "d30d785e-0e21-4a81-91d5-a97eab4c7134",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

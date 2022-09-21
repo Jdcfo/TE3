@@ -1,0 +1,13 @@
+{
+  "name": "Gen Bus Posting Group",
+  "dataType": "string",
+  "sourceColumn": "Gen Bus Posting Group",
+  "lineageTag": "bbd39b46-3f43-4a70-b345-26b271c72f6d",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

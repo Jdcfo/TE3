@@ -1,0 +1,18 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "Income Statement Order",
+  "dataType": "int64",
+  "isNameInferred": false,
+  "isDataTypeInferred": true,
+  "isHidden": true,
+  "sourceColumn": "[Value3]",
+  "formatString": "0",
+  "lineageTag": "7750f1ad-5483-4ec8-b5fc-98e107d116ad",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

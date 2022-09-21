@@ -1,0 +1,19 @@
+{
+  "name": "Entry No",
+  "dataType": "int64",
+  "isHidden": true,
+  "sourceColumn": "Entry No",
+  "formatString": "0",
+  "lineageTag": "ca29d915-8b5c-4bea-b4fc-5f6df39949cb",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_ChangedProperties",
+      "value": "[\"IsHidden\"]"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Budget Variances",
+  "expression": "[Budget]-[Amount]",
+  "formatString": "#,0",
+  "lineageTag": "b81665f7-53c6-420a-adaa-1153032eb965"
+}

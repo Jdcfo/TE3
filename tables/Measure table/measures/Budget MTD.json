@@ -1,0 +1,6 @@
+{
+  "name": "Budget MTD",
+  "expression": "TOTALMTD([Budget], 'Date'[Date])",
+  "displayFolder": "_Time Intelligence",
+  "lineageTag": "690b989e-bd25-42c6-8859-5eecb261657c"
+}

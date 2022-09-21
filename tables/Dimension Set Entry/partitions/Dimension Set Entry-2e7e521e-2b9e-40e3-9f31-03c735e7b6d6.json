@@ -1,0 +1,25 @@
+{
+  "name": "Dimension Set Entry-2e7e521e-2b9e-40e3-9f31-03c735e7b6d6",
+  "mode": "import",
+  "queryGroup": "DimensionMashup",
+  "source": {
+    "type": "m",
+    "expression": [
+      "let",
+      "    Source = Sql.Database(pServer, pDatabase),",
+      "    TableName = pNavCompany & \"$Dimension Set Entry\",",
+      "    #\"dbo_CRONUS Danmark A_S$Dimension Set Entry\" = Source{[Schema=\"dbo\",Item=TableName]}[Data],",
+      "    #\"Removed Columns\" = Table.RemoveColumns(#\"dbo_CRONUS Danmark A_S$Dimension Set Entry\",{\"timestamp\"}),",
+      "    #\"Merged Queries\" = Table.NestedJoin(#\"Removed Columns\", {\"Dimension Value ID\"}, #\"Dimension Value\", {\"Dimension Value ID\"}, \"Dimension Value\", JoinKind.LeftOuter),",
+      "    #\"Expanded Dimension Value\" = Table.ExpandTableColumn(#\"Merged Queries\", \"Dimension Value\", {\"Name\"}, {\"Name\"}),",
+      "    #\"Removed Columns1\" = Table.RemoveColumns(#\"Expanded Dimension Value\",{\"Dimension Value Code\", \"Dimension Value ID\"}),",
+      "    #\"Merged Queries1\" = Table.NestedJoin(#\"Removed Columns1\", {\"Dimension Code\"}, Dimension, {\"Code\"}, \"Dimension\", JoinKind.LeftOuter),",
+      "    #\"Expanded Dimension\" = Table.ExpandTableColumn(#\"Merged Queries1\", \"Dimension\", {\"Name\"}, {\"Name.1\"}),",
+      "    #\"Renamed Columns\" = Table.RenameColumns(#\"Expanded Dimension\",{{\"Name\", \"DimensionValue\"}, {\"Name.1\", \"Dimension\"}}),",
+      "    #\"Removed Columns2\" = Table.RemoveColumns(#\"Renamed Columns\",{\"Dimension Code\"}),",
+      "    #\"Pivoted Column\" = Table.Pivot(#\"Removed Columns2\", List.Distinct(#\"Removed Columns2\"[Dimension]), \"Dimension\", \"DimensionValue\")",
+      "in",
+      "    #\"Pivoted Column\""
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "G_L Account Category",
+  "lineageTag": "b80a2a67-9781-422b-896f-831bed38bd49",
+  "annotations": [
+    {
+      "name": "PBI_NavigationStepName",
+      "value": "Navigation"
+    },
+    {
+      "name": "PBI_ResultType",
+      "value": "Table"
+    },
+    {
+      "name": "TabularEditor_Relationships",
+      "value": "[]"
+    }
+  ]
+}

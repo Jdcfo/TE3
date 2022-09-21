@@ -1,0 +1,25 @@
+{
+  "name": "Dimension Value",
+  "kind": "m",
+  "expression": [
+    "let",
+    "    Source = Sql.Database(pServer, pDatabase),",
+    "    TableName = pNavCompany & \"$Dimension Value\",       ",
+    "    #\"dbo_CRONUS Danmark A_S$Dimension Value\" = Source{[Schema=\"dbo\",Item=TableName]}[Data],",
+    "    #\"Removed Columns\" = Table.RemoveColumns(#\"dbo_CRONUS Danmark A_S$Dimension Value\",{\"timestamp\", \"Dimension Value Type\", \"Totaling\", \"Blocked\", \"Consolidation Code\", \"Indentation\", \"Global Dimension No_\", \"Map-to IC Dimension Code\", \"Map-to IC Dimension Value Code\"})",
+    "in",
+    "    #\"Removed Columns\""
+  ],
+  "queryGroup": "Helpers",
+  "lineageTag": "d34333a4-4abd-4a36-9d46-a5f949b9d39c",
+  "annotations": [
+    {
+      "name": "PBI_NavigationStepName",
+      "value": "Navigation"
+    },
+    {
+      "name": "PBI_ResultType",
+      "value": "Table"
+    }
+  ]
+}

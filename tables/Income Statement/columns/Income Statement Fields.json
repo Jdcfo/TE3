@@ -1,0 +1,28 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "Income Statement Fields",
+  "dataType": "string",
+  "isNameInferred": false,
+  "isDataTypeInferred": true,
+  "isHidden": true,
+  "sourceColumn": "[Value2]",
+  "sortByColumn": "Income Statement Order",
+  "lineageTag": "e2cf820d-5b3e-46f6-aadd-1c2039548e12",
+  "summarizeBy": "none",
+  "extendedProperties": [
+    {
+      "type": "json",
+      "name": "ParameterMetadata",
+      "value": {
+        "version": 3,
+        "kind": 2
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

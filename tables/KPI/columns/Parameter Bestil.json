@@ -1,0 +1,18 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "Parameter Bestil",
+  "dataType": "int64",
+  "isNameInferred": false,
+  "isDataTypeInferred": true,
+  "isHidden": true,
+  "sourceColumn": "[Value3]",
+  "formatString": "0",
+  "lineageTag": "2953b02d-51ff-46dc-a08b-0e0e66578eb3",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

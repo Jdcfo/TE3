@@ -1,0 +1,35 @@
+{
+  "name": "_Tax",
+  "description": [
+    "An operating expense, operating expenditure, operational expense, operational expenditure or opex is an ongoing cost for running a product, business, or system. ",
+    "Its counterpart, a capital expenditure (capex), is the cost of developing or providing non-consumable parts for the product or system. ",
+    "For example, the purchase of a photocopier involves capex, and the annual paper, toner, power and maintenance costs represents opex.",
+    "For larger systems like businesses, opex may also include the cost of workers and facility expenses such as rent and utilities."
+  ],
+  "expression": [
+    "CALCULATE(",
+    "\tSUM('Finance'[Amount]),",
+    "    'G_L Account'[G_L Account No int]=9510,    ",
+    "\tALL('G_L Account')",
+    ")"
+  ],
+  "formatString": "#,##0",
+  "displayFolder": "_AccountSpecific",
+  "lineageTag": "44de3841-cea8-4c91-b24d-f8758f78d31c",
+  "extendedProperties": [
+    {
+      "type": "json",
+      "name": "MeasureTemplate",
+      "value": {
+        "version": 0,
+        "daxTemplateName": "FilteredMeasure"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_ChangedProperties",
+      "value": "[\"FormatString\"]"
+    }
+  ]
+}

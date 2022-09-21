@@ -1,0 +1,12 @@
+{
+  "name": "GM %",
+  "expression": "DIVIDE([_Revenue],[GROSS PROFIT])",
+  "formatString": "0\\ %;-0\\ %;0\\ %",
+  "lineageTag": "1d48c318-fdb5-44d1-84e5-8861ff676bc8",
+  "annotations": [
+    {
+      "name": "PBI_ChangedProperties",
+      "value": "[\"FormatString\"]"
+    }
+  ]
+}

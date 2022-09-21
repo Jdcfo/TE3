@@ -1,0 +1,22 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "MonthNo",
+  "dataType": "int64",
+  "isNameInferred": true,
+  "isDataTypeInferred": true,
+  "isHidden": true,
+  "sourceColumn": "[MonthNo]",
+  "formatString": "0",
+  "lineageTag": "cee6eaa6-749d-40d8-b620-1770e90959b1",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "User"
+    },
+    {
+      "name": "PBI_ChangedProperties",
+      "value": "[\"IsHidden\"]"
+    }
+  ]
+}

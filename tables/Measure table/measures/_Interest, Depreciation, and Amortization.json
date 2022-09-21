@@ -1,0 +1,37 @@
+{
+  "name": "_Interest, Depreciation, and Amortization",
+  "description": [
+    "An operating expense, operating expenditure, operational expense, operational expenditure or opex is an ongoing cost for running a product, business, or system. ",
+    "Its counterpart, a capital expenditure (capex), is the cost of developing or providing non-consumable parts for the product or system. ",
+    "For example, the purchase of a photocopier involves capex, and the annual paper, toner, power and maintenance costs represents opex.",
+    "For larger systems like businesses, opex may also include the cost of workers and facility expenses such as rent and utilities."
+  ],
+  "expression": [
+    "CALCULATE(",
+    "\tSUM('Finance'[Amount]),",
+    "\t'G_L Account'[Account Category] IN { \"Expense\" },",
+    "    'G_L Account'[G_L Account No int]>=8800,    ",
+    "    'G_L Account'[G_L Account No int]<9510, // TAX / SKAT,    ",
+    "\tALL('G_L Account'[Account Category No])",
+    ")"
+  ],
+  "formatString": "#,##0",
+  "displayFolder": "_AccountSpecific",
+  "lineageTag": "fec411e9-a48c-4e88-8484-c1dedb3cb229",
+  "extendedProperties": [
+    {
+      "type": "json",
+      "name": "MeasureTemplate",
+      "value": {
+        "version": 0,
+        "daxTemplateName": "FilteredMeasure"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_ChangedProperties",
+      "value": "[\"FormatString\"]"
+    }
+  ]
+}

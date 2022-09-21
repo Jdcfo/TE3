@@ -1,0 +1,7 @@
+{
+  "name": "NET PROFIT YTD",
+  "expression": "TOTALYTD([NET PROFIT], 'Date'[Date])",
+  "formatString": "#,##0",
+  "displayFolder": "_AccountSpecific",
+  "lineageTag": "532526fb-2a48-402b-b4c1-b4b1fd152eeb"
+}

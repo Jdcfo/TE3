@@ -1,0 +1,17 @@
+{
+  "name": "pServer",
+  "kind": "m",
+  "expression": "\"powerbikursus.database.windows.net\" meta [IsParameterQuery=true, Type=\"Text\", IsParameterQueryRequired=true]",
+  "queryGroup": "Parameters",
+  "lineageTag": "d1ad538e-f9ea-4f3e-a97b-27404c626cea",
+  "annotations": [
+    {
+      "name": "PBI_NavigationStepName",
+      "value": "Navigation"
+    },
+    {
+      "name": "PBI_ResultType",
+      "value": "Text"
+    }
+  ]
+}

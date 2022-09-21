@@ -1,0 +1,6 @@
+{
+  "name": "Budget Variances PY",
+  "expression": "CALCULATE([Budget Variances], SAMEPERIODLASTYEAR('Date'[Date]))",
+  "displayFolder": "_Time Intelligence",
+  "lineageTag": "25d7ce24-3343-4b9c-9b6c-1b08d3c89404"
+}

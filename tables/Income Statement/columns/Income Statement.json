@@ -1,0 +1,24 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "Income Statement",
+  "dataType": "string",
+  "isNameInferred": false,
+  "isDataTypeInferred": true,
+  "sourceColumn": "[Value1]",
+  "sortByColumn": "Income Statement Order",
+  "lineageTag": "123ed9ff-43d2-4d42-9b1f-00b2256728ee",
+  "summarizeBy": "none",
+  "relatedColumnDetails": {
+    "groupByColumns": [
+      {
+        "groupingColumn": "Income Statement Fields"
+      }
+    ]
+  },
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Debit Amount",
+  "dataType": "double",
+  "sourceColumn": "Debit Amount",
+  "formatString": "#,0.00",
+  "lineageTag": "b829ef59-441b-4197-a192-acfd9622d7db",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_ChangedProperties",
+      "value": "[\"FormatString\"]"
+    }
+  ]
+}

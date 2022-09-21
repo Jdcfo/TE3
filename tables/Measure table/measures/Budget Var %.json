@@ -1,0 +1,6 @@
+{
+  "name": "Budget Var %",
+  "expression": "DIVIDE([Budget Variances],[Budget])",
+  "formatString": "#,##0 %",
+  "lineageTag": "29b23062-80e0-4c4d-bb68-b948b15a32cb"
+}

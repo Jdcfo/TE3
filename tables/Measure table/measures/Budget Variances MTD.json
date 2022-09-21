@@ -1,0 +1,6 @@
+{
+  "name": "Budget Variances MTD",
+  "expression": "TOTALMTD([Budget Variances], 'Date'[Date])",
+  "displayFolder": "_Time Intelligence",
+  "lineageTag": "9524f365-a3e0-4529-8962-65c0371ff513"
+}
